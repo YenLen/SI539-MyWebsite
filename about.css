@@ -4,7 +4,10 @@ body{
 	background-color: white;
 	letter-spacing: 1px;
 }
-
+h1, h2, h3{
+	color: black;
+	font-weight: 600;
+}
 
 p{
 	

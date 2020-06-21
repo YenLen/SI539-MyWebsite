@@ -6,6 +6,11 @@ body{
 }
 
 
+h1, h2, h3{
+	color: black;
+	font-weight: 600;
+}
+
 p{
 	
 	margin-bottom: 1.6em;
