@@ -1,3 +1,4 @@
+/* written by me */
 body{
 	position: relative;
 	font-family:  sans-serif ;
@@ -5,6 +6,7 @@ body{
 	letter-spacing: 1px;
 }
 
+/* written by me */
 h1, h2, h3{
 	color: black;
 	font-weight: 600;
@@ -17,20 +19,19 @@ p{
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    
 }
+
+/* written by me */
 span{
 	font-weight: bold;
 }
 
+/* written by me */
 .navbar-default {
 	background-color: #ffffff;
 	border-color: #ffffff;
 	text-align: right;
-
 }
-
-
 .navbar-default .navbar-nav > li > a {
 	color: black;
 	padding-top: 20px;
@@ -43,10 +44,7 @@ span{
 	padding-bottom: 8px;
 	text-align: right;
 }
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a{
 	background-color: #ffffff;
 	padding-bottom: 8px;
 	color: black;
@@ -55,7 +53,7 @@ span{
 
 }
 
-
+/*written by me*/
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
@@ -71,12 +69,14 @@ span{
     background-color: #ffffff;
   }
 }
+
+/*written by me*/
 .navbar-brand{
 	position: absolute;
 	left: 50px;
 }
 
-/*功能跟 center-block一樣把圖片置中*/
+/*written by me*/
 .img-profile{
 	display: block;
 	height: 60%;
@@ -85,7 +85,7 @@ span{
     padding: 100px 0px 0px 0px;
 }
 
-
+/*written by me*/
 .img-container {
     position: relative;
     padding: 0px;
@@ -94,6 +94,7 @@ span{
 
 }
 
+/*written by me*/
 .bar-social-buttons{
 	margin-top: 20px;
     margin-bottom: 20px;
@@ -102,9 +103,6 @@ span{
 
 
 /*Social button bar Animatio*/
-
-
-
 .bar-social-buttons img:hover{
 	color: red;
 	opacity: 0.6;
@@ -120,17 +118,18 @@ span{
     -moz-transition: opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
 }​
-/*Social button bar Animation*/
+
 
 
 /*Social button bar*/
-
+/*written by me*/
 ul .social-buttons {
 	float: left;
 	list-style: none;
     padding: 0;
 }
 
+/*written by me*/
 .icon-social{
 	margin: 2px;
 	width: 36px;
@@ -192,13 +191,12 @@ ul .social-buttons {
 
 
 
-/*Animation area*/
-
-
+/*written by me*/
 .container {
   overflow: hidden;
 }
 
+/*written by me*/
 .filterDiv {
   float: left;
   background-color: #ffffff;
@@ -208,10 +206,10 @@ ul .social-buttons {
 }
 
 /* The "show" class is added to the filtered elements */
-/*.show {
+.show {
   display: block;
 }
-*/
+
 /* Style the buttons */
 .btn {
   border: none;
